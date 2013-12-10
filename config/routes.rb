@@ -7,6 +7,7 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 Depot::Application.routes.draw do
+  get "store/index"
   resources :products
 
   # The priority is based upon order of creation:
@@ -14,7 +15,7 @@ Depot::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'store#index', as: 'store'
+  root 'store#index', as: 'store'
   # ...
 
   # Example of regular route:
