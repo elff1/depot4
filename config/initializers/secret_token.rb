@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Depot4::Application.config.secret_key_base = '6d19f93cd6bb0edfb795fc4df4ac641eb05985e27656ec9f0ef25abbf9f0996ec75be6a1e348bc56ade6b513899eac8b2666c1927c99dd2b7b22395a866fcc25'
+Depot::Application.config.secret_key_base = '6d19f93cd6bb0edfb795fc4df4ac641eb05985e27656ec9f0ef25abbf9f0996ec75be6a1e348bc56ade6b513899eac8b2666c1927c99dd2b7b22395a866fcc25'
